@@ -1,0 +1,25 @@
+.ImgButton {
+  background: #d7d5d500 0% 0% no-repeat padding-box;
+  border: 1px solid #6c6c6cb3;
+  border-radius: 1.4vw;
+  display: flex;
+  align-items: center;
+  height: 2.2vw;
+  justify-content: center;
+  padding: 0.7em 1em;
+  font-size: 1.5em;
+  color: #555555;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.ImgButton img {
+  width: 1vw;
+  margin-right: 1vw;
+}
+
+.ButtonText {
+  font-size: 0.6vw;
+  font-weight: 600;
+  margin-right: 0.5vw;
+}

@@ -1,0 +1,42 @@
+.AccordionPanel {
+  display: grid;
+  grid-template-columns: 5% 90%;
+  grid-column-gap: 10px;
+  overflow: hidden;
+}
+
+.AccordionItems {
+  display: grid;
+  grid-row-gap: 20px;
+  width: fit-content;
+}
+
+.AccordionPanel img {
+  margin-top: 5px;
+  height: 22.5px;
+  width: 22.5px;
+}
+
+.Expanded {
+  height: auto;
+}
+
+.PointText {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #3b5aff;
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .Container {
+    background-position: center;
+  }
+
+  .ExpandContent {
+    padding-left: 6.5vw !important;
+  }
+}

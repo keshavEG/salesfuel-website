@@ -1,0 +1,39 @@
+@import "../convertPxToVw.scss";
+
+.Container {
+  background: url("./HeaderBg.svg");
+  height: fit-content;
+  background-repeat: round;
+  background-size: cover; 
+  padding-bottom: 75px;
+  margin-bottom: 40px;
+}
+
+.Title {
+  font-weight: 400;
+  font-size: vw(40px);
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: vw(47px);
+
+  padding: vw(10px) vw(12px);
+}
+
+.Blue {
+  color: #3b5aff;
+}
+
+.Description {
+  font-size: vw(20px);
+  color: #000000;
+  font-weight: 400;
+  padding: vw(10px) vw(34px);
+  text-align: center;
+  line-height: 1.19;
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .Container {
+  }
+}

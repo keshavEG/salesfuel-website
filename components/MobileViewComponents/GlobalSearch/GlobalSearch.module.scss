@@ -1,0 +1,84 @@
+@import "../convertPxToVw.scss";
+
+.Title {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+}
+
+.FormContainer {
+  display: grid;
+  grid-row-gap: 16px;
+  padding: 40px;
+  padding-top: 25px;
+}
+
+.FormContainer input {
+  background: #ffffff;
+  border: 0.5px solid #3b5aff;
+  border-radius: 23px;
+  font-weight: 400;
+  font-size: 14px;
+  height: 46px;
+  line-height: 16px;
+  padding-left: 27px;
+  color: #7a7a7a;
+  width: 100%;
+}
+
+.FormContainer select {
+  background: #ffffff;
+  border: 0.5px solid #3b5aff;
+  border-radius: 23px;
+  font-weight: 400;
+  font-size: 14px;
+  height: 46px;
+  line-height: 16px;
+  padding-left: 27px;
+  color: #7a7a7a;
+  width: 100%;
+}
+
+.PrimaryButton {
+  background: #3b5aff;
+  border-radius: 16.5px;
+  color: #ffffff;
+  width: 194px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.SelectContainer select {
+  background: #efeeee;
+}
+
+.SelectContainer {
+  background: #ffffff;
+  border: 0.5px solid #3b5aff;
+  border-radius: 23px;
+  font-weight: 400;
+  font-size: 14px;
+  height: 46px;
+  line-height: 16px;
+  padding-top: 16px;
+  padding-left: 27px;
+  color: #7a7a7a;
+  width: 100%;
+    position: relative;
+  img {
+    position: absolute;
+    right: 0;
+    top: 41%;
+    right: 18px;
+  }
+}

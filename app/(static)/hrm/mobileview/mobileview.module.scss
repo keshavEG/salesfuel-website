@@ -1,0 +1,14 @@
+.BottomContainer {
+  margin-top: 34px;
+  padding: 0 25px;
+  display: grid;
+}
+
+.BottomContainer > div {
+  padding: 10px 0;
+  border-bottom: 1px solid #3b5aff;
+}
+
+.BottomContainer > div:last-child {
+  border-bottom: none;
+}

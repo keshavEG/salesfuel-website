@@ -1,0 +1,52 @@
+@import "../convertPxToVw.scss";
+
+.Container {
+  justify-content: space-around;
+}
+
+.Container {
+  position: relative;
+  width: fit-content;
+  outline: none;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #3b5aff;
+  width: vw(300px);
+  border-radius: (23px);
+  padding: (5px);
+  color: #636363;
+
+  height: 46px;
+  overflow: hidden;
+  padding-left: 20px;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.Button {
+  background: #3b5aff;
+  position: absolute;
+  right: 1vw;
+  top: 5px;
+  width: vw(101px);
+  height: 35px;
+  background: #3b5aff;
+  border-radius: (16.5px);
+  font-style: normal;
+  font-weight: 500;
+  font-size: vw(12px);
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: right;
+  justify-content: space-around;
+}
+
+.PrefixIcon {
+  position: absolute;
+  left: 16px;
+  top: 13px;
+}
+.ArrowImage{
+padding: 8px;
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18vw;
+  border: 1px solid lightgrey;
+  border-radius: 0.23vw;
+}
+
+.image {
+  color: #3b5aff;
+  font-weight: 200;
+  padding: 0.2vw;
+  padding-left: 1vw;
+}
+
+.title {
+  font-size: 1vw;
+  color: #3b5aff;
+  font-weight: 200;
+  padding: 0vw 0.2vw 1vw 1vw;
+}
+
+.title2 {
+  font-size: 1vw;
+  color: black;
+  font-weight: 200;
+  padding: 0.2vw;
+}

@@ -1,0 +1,27 @@
+.MainContainer {
+  margin-top: 2vw;
+  position: relative;
+  padding: 2vw 4vw;
+}
+
+.MainContainer::after {
+  content: "";
+  position: absolute;
+  top: 3vh;
+  right: 0.5vw;
+  height: 80%;
+  width: 0.1vw;
+  background-color: #2e4cf4;
+}
+
+.titleName {
+  font-size: 1.8vw;
+  color: #3b5aff;
+  font-weight: 400;
+}
+
+.descname {
+  color: #666262;
+  font-size: 16px;
+  font-weight: 300;
+}

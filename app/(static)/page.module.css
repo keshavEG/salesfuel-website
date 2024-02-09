@@ -1,0 +1,320 @@
+.Container {
+  width: auto;
+  overflow-y: auto;
+  padding: 1vw 4vw 0 3vw;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.Image {
+  width: 100%;
+  object-fit: cover;
+  height: fit-content;
+}
+
+.ImageText {
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+  padding: 2rem 3rem;
+  object-fit: contain;
+}
+
+.HeadingText {
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw;
+  font-weight: 300;
+  width: 48%;
+  line-height: 1.1;
+}
+
+.HeadingText2 {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw;
+  font-weight: 300;
+  width: 48%;
+  line-height: 1.1;
+}
+
+.HeadingText3 {
+  font-size: 1vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw;
+  font-weight: 300;
+  width: 48%;
+  line-height: 1.1;
+}
+
+.HeadingTextBlue {
+  font-size: 2.3vw;
+  color: #3b5aff;
+  margin-bottom: 1vw;
+}
+
+.HeadingSocialIcon{
+  margin-left: 30%;
+}
+
+.SubText {
+  font-size: 1.5vw;
+  color: #545454;
+  line-height: 1.1;
+}
+
+.SubTextBlue {
+  font-size: 2vw;
+  color: #3b5aff;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.MainHeading {
+  margin-bottom: 1.8vw;
+  font-size: 1.5vw;
+}
+
+.Flex {
+  width: auto;
+  display: flex;
+}
+
+.ContainerLeft {
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+}
+
+.ContainerRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 2vw;
+}
+
+.FlexContainer {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3vw;
+  margin-top: 2vw;
+}
+
+.MiddleText {
+  font-size: 1vw;
+  color: #525252;
+}
+
+.HeadingSeller {
+  font-size: 1.6vw;
+  font-weight: 300;
+}
+
+.SubheadingSeller {
+  font-size: 1.1vw;
+  font-weight: 400;
+  color: #786e6e;
+}
+
+.SubheadingSeller2 {
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #000000;
+}
+
+.SecondSubHeadingSeller {
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #9c9c9c;
+}
+
+.SecondSubHeading2Seller {
+  font-size: 1.4vw;
+  font-weight: 400;
+  color: #3b5aff;
+}
+
+.HeadingSubText {
+  font-size: 1vw;
+  font-weight: 200;
+  color: #786e6e;
+}
+
+.ImageTextSeller {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.CardLine {
+  border: none;
+  height: 1px;
+  margin-top: 0.5vw;
+  background-color: #9c9c9c;
+}
+
+.Card {
+  width: 7.6vw;
+  margin: 0.5vw;
+  height: 7.2vw;
+  background-color: #5f5b5b19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ImageCard {
+  width: 4vw;
+}
+
+.ImageCard2 {
+  width: 4vw;
+  height: 1.4vw;
+}
+
+.ImageCard3 {
+  font-size: 0.8vw;
+  font-weight: 600;
+}
+
+.CenteredText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  color: #585757;
+  font-weight: 300;
+}
+
+.CenteredText2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  margin-top: 2vw;
+  color: #585757;
+  font-weight: 200;
+}
+
+.CenteredTextBlue {
+  color: #3b5aff;
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+.Clearbutton {
+  width: 11vw;
+  border: solid 1px #365dffb3;
+  border-radius: 2vw;
+  font-size: 1vw;
+  color: #365dff;
+  padding: 0.6vw 0.8vw 0.6vw 0.8vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.GreyHeader {
+  margin-top: 5vw;
+  margin-bottom: 4vw;
+  background-color: #f6f6f6;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.GreyHeader2 {
+  margin-top: 4vw;
+  background-color: #f6f6f6;
+  padding: 2vw 0;
+}
+
+.SmallText {
+  font-size: 18px;
+  text-align: center;
+  color: #3f3f3f;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.ButtonText {
+  margin-top: 3vw;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ITSContainer {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 30vw;
+  column-gap: 14vw;
+  margin: 5vw 0;
+}
+
+.PeopleContainer {
+  display: flex;
+  margin: 3.5vw;
+  justify-content: space-between;
+}
+
+.TitleDescContainer > div:last-child > div::after {
+  width: 0;
+}
+
+.MobileTitleWithBorder {
+  color: #3b5aff;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  gap: 10px;
+  margin-top: 36px;
+}
+
+.MobileBorder {
+  border: 1px solid #3b5aff;
+  width: 100%;
+}
+
+.MobileTitleDesc {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  margin: 15px 0;
+  color: #9d9c9c;
+}
+
+.Points {
+  display: grid;
+  grid-row-gap: 22px;
+  margin-bottom: 50px;
+}
+
+.Points > div {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-column-gap: 10px;
+}
+
+@media screen and (max-width: 500) {
+  .Container {
+    display: none !important;
+  }
+}

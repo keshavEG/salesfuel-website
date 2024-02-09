@@ -1,0 +1,39 @@
+@import "../convertPxToVw.scss";
+
+.Container {
+  position: relative;
+  width: fit-content;
+}
+
+.Container input {
+  outline: none;
+  border: 0.5px solid #3b5aff;
+  width: vw(300px);
+  border-radius: (23px);
+  padding: (5px);
+  height: 46px;
+  overflow: hidden;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.Button {
+  background: #3b5aff;
+  position: absolute;
+  right: 1vw;
+  top: 5px;
+  width: vw(101px);
+  height: 35px;
+  background: #3b5aff;
+  border-radius: (16.5px);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+
+
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

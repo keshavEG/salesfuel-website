@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-button {
+    background: var(--purple) !important;
+    color: white !important;
+    font-weight: 500 !important;
+    border-radius: 999px !important;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 65%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+}
+
+:root {
+  --purple: #6c2bd9;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* *{
+  font-family: var(--font-roboto)!important;
+} */
+
+.main-dropdown-input-container input {
+  border: none;
+  outline: none;
+  background: white;
+  width: 100%;
+}
+
+.main-dropdown-input-container input:focus {
+  outline: none;
+  --tw-ring-opacity: unset;
+}
+
+.main-dropdown-input-container input,
+.main-dropdown-input-container input::placeholder {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.main-dropdown-container > .w-fit:first-child,
+.main-dropdown-container > .w-fit:first-child > button {
+  height: 100%;
+  border-radius: 999px;
+  width: 250px;
+}
+
+.main-dropdown-container > .w-fit:nth-child(2) {
+  left: unset !important;
+  width: 240px;
+}
+
+.main-dropdown-container div button,
+.main-dropdown-container div button:hover {
+  background: var(--purple);
+}
+
+.main-dropdown-container div button span {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.faq-title-container svg {
+  height: 32px;
+  width: 32px;
+  background: white;
+  border-radius: 50%;
+}
+
+.blur {
+  filter: blur(2px);
+  user-select: none;
+  pointer-events: none;
+  keyboard-events: none;
+}
+
+.format {
+  color: #6b7280;
+}
+
+.format :where(strong):not(:where([class~="not-format"] *)) {
+  color: #111827;
+  font-weight: 700;
+}
+
+.format :where(hr + *):not(:where([class~="not-format"] *)) {
+  margin-top: 0;
+}
+
+.format p:not(:where([class~="not-format"] *)) {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.mobile_section_title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
+}
+
+.mobile_section_subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #9d9c9c;
+}
+
+.blue {
+  color: #3b5aff;
+}
+
+.black {
+  color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .root {
+    display: none;
+  }
+}

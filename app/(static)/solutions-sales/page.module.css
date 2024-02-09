@@ -1,0 +1,352 @@
+.Container {
+  width: auto;
+  overflow-y: auto;
+  padding: 1vw 5vw 0 8vw;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.Image {
+  height: 24vw;
+  width: 37vw;
+  object-fit: contain;
+}
+
+.Image2 {
+  height: 24vw;
+  width: 34vw;
+  object-fit: contain;
+}
+
+.Image3 {
+  height: 26vw;
+  width: 26vw;
+  object-fit: contain;
+}
+
+.ImageText {
+  display: flex;
+
+  flex-direction: row;
+  width: 52%;
+}
+
+.ImageText2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 52%;
+}
+
+.ImageTextRight {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+}
+
+.CardImage {
+  height: 1vw;
+  width: 2vw;
+  display: block;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.HeadingText {
+  font-size: 4vw;
+  color: rgb(0, 0, 0);
+  padding: 4.3vw;
+  font-weight: 300;
+
+  width: 77%;
+  line-height: 1.1;
+}
+
+.HeadingText2 {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw;
+  font-weight: 300;
+  width: 48%;
+  line-height: 1.1;
+}
+
+.HeadingText3 {
+  font-size: 1vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw;
+  font-weight: 300;
+  width: 48%;
+  line-height: 1.1;
+}
+.HeadingText4 {
+  font-size: 1vw;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw;
+  font-weight: 300;
+  width: 48%;
+  line-height: 1.1;
+}
+.HeadingTextBlue {
+  font-size: 3vw;
+  color: #3b5aff;
+  margin-bottom: 1vw;
+}
+
+.SubText {
+  font-size: 22px;
+  color: #545454;
+  line-height: 1.25;
+}
+
+.SubText2 {
+  font-size: 1.4vw;
+  color: #545454b4;
+  line-height: 1.1;
+}
+
+.SubText3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #545454b4;
+  line-height: 1.1;
+}
+
+.SubTextBlue {
+  font-size: 2vw;
+  color: #3b5aff;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.MainHeading {
+  font-size: 3vw;
+  margin-bottom: 1.8vw;
+}
+
+.Flex {
+  display: flex;
+  width: auto;
+}
+
+.ContainerLeft {
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+}
+
+.ContainerRight {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  justify-content: space-around;
+}
+
+.FlexContainer {
+  padding-left: 4.3vw;
+  display: flex;
+  width: auto;
+  justify-content: left;
+}
+
+.MiddleText {
+  margin-left: 10vw;
+  margin-right: 2vw;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+  color: #525252;
+}
+
+.HeadingSeller {
+  font-size: 1.6vw;
+  font-weight: 300;
+}
+
+.SubheadingSeller {
+  font-size: 1.1vw;
+  font-weight: 400;
+  color: #786e6e;
+}
+
+.SubheadingSeller2 {
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #000000;
+}
+
+.SecondSubHeadingSeller {
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #9c9c9c;
+}
+
+.SecondSubHeading2Seller {
+  font-size: 1.4vw;
+  font-weight: 400;
+  color: #3b5aff;
+}
+
+.HeadingSubText {
+  font-size: 1vw;
+  font-weight: 200;
+  color: #786e6e;
+}
+
+.ImageTextSeller {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+}
+
+.CardLine {
+  border: none;
+  height: 1px;
+  margin-top: 0.5vw;
+  background-color: #9c9c9c;
+}
+
+.Card {
+  width: 7.6vw;
+  margin: 0.5vw;
+  height: 7.2vw;
+  background-color: #5f5b5b19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ImageCard {
+  width: 3vw;
+  height: 3vw;
+}
+
+.ImageCard2 {
+  width: 4vw;
+  height: 1.4vw;
+}
+
+.ImageCard3 {
+  font-size: 0.8vw;
+  font-weight: 600;
+}
+
+.CenteredText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  color: #585757;
+  font-weight: 300;
+  margin-top: 8vw;
+}
+
+.CenteredText2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  margin-top: 2vw;
+  color: #585757;
+  font-weight: 200;
+}
+
+.CenteredText3 {
+  display: flex;
+
+  font-size: 2vw;
+  color: #585757;
+  font-weight: 400;
+}
+
+.CenteredTextBlue {
+  color: #3b5aff;
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+.CenteredTextBlue2 {
+  color: #3b5aff;
+  font-weight: 300;
+  padding-right: 0.5vw;
+}
+
+.Clearbutton {
+  border: solid 1px #365dffb3;
+  border-radius: 2vw;
+  font-size: 1vw;
+  color: #365dff;
+  padding: 0.6vw 0.8vw 0.6vw 0.8vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.GreyHeader {
+  margin-top: 4vw;
+  background-color: #f6f6f6;
+  padding-top: 2vw;
+}
+
+.GreyHeader2 {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  height: 28vw;
+  background-color: #f6f6f6;
+  width: 100vw;
+  padding-top: 2vw;
+}
+
+.SmallText {
+  font-size: 18px;
+  text-align: center;
+  color: #3f3f3f;
+  font-weight: 300;
+}
+
+.SmallText2 {
+  text-align: left !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #3f3f3f;
+  font-weight: 300;
+}
+
+.ButtonText {
+  margin-top: 3vw;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonPlaceholder {
+  margin-top: 2vw;
+}
+
+.ButtonPlaceholder button {
+  background: #2b49c6;
+}
+
+.ButtonPlaceholder button:hover {
+  background: #2b49c6;
+}
+
+.HighlightLeft {
+  border-left: solid #9c9c9c;
+  padding-left: 1vw;
+}

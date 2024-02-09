@@ -1,0 +1,96 @@
+.Container {
+  width: auto;
+  overflow-y: auto;
+  padding: 1vw 5vw 0 8vw;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.MainHeading {
+  font-size: 3vw;
+}
+
+.Image {
+  height: 32vw;
+  width: 34vw;
+}
+
+.HeadingTextBlue {
+  font-size: 3vw;
+  color: #3b5aff;
+  margin-bottom: 1vw;
+}
+
+.Flex {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+
+.ImageText4 {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
+  background: #f3f3f3;
+  border-radius: 1vw;
+  margin-bottom: 2vw;
+}
+
+.HeadingText {
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+  padding: 4vw 0 4vw 4vw;
+  font-weight: 300;
+  width: 44%;
+  line-height: 1;
+}
+
+.ContainerLeft {
+  display: flex;
+  flex-direction: row;
+  width: 52%;
+}
+
+.SubText4 {
+  width: 32vw;
+  font-size: 1.2vw;
+  color: #545454;
+  margin-top: 1vw;
+  line-height: 1.1;
+  margin-bottom: 2vw;
+}
+
+.titleCard {
+  display: flex;
+  height: 2.2vw;
+  width: 8vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1vw;
+  top: 4vw;
+  font-size: 0.9vw;
+  font-weight: 700;
+  position: absolute;
+  background-color: #e1dede;
+}
+
+/* Add the following styles to your existing CSS */
+
+
+
+
+.Title {
+  margin-top: 1rem;
+  font-size: 0.8vw;
+  color: #9a9696;
+  font-weight: 400;
+  text-align: center;
+}
+
+.BoldText {
+  font-size: 0.8vw;
+  font-weight: 600;
+  color: rgb(150, 145, 145);
+}

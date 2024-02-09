@@ -1,0 +1,79 @@
+@import "../../../../components/MobileViewComponents/convertPxToVw.scss";
+
+.BottomContainer {
+  margin-top: 34px;
+  padding: 0 25px;
+  display: grid;
+}
+
+.BottomContainer > div {
+  padding: 10px 0;
+  border-bottom: 1px solid #3b5aff;
+}
+
+.BottomContainer > div:last-child {
+  border-bottom: none;
+}
+
+.Points {
+  display: grid;
+  grid-row-gap: 22px;
+  padding: 38px 20px;
+  margin-bottom: 50px;
+}
+
+.Points > div {
+  display: grid;
+  grid-column-gap: 10px;
+}
+
+.Points img {
+  margin-top: 3px;
+}
+.PointText {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #3b5aff;
+}
+
+.SecondarySection {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.SecondaryActiveContainer {
+  display: flex;
+  align-items: center;
+  background: #efefef;
+  padding: 9px 35px;
+  .SecondaryContainer {
+    margin-top: 0 !important;
+  }
+}
+
+.SecondaryActiveContainer img {
+  height: 23px;
+  width: 31px;
+}
+
+.SecondaryContainer {
+  margin-top: 16px;
+}
+
+.SecondaryContainer > div:first-child {
+  font-weight: 400;
+  font-size: vw(24px);
+  line-height: 28px;
+  color: #000000;
+}
+
+.SecondaryContainer > div:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #a4a4a4;
+  padding-top: 5px;
+}
+
